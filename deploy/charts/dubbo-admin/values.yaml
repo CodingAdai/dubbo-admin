@@ -321,13 +321,13 @@ ingress:
     - hosts:
         - sh-dubbo-admin.upupfarm.com
 
-resources:
-  limits:
-    cpu: 100m
-    memory: 1000Mi
-  requests:
-    cpu: 50m
-    memory: 500Mi
+resources: {}
+#  limits:
+#    cpu: 100m
+#    memory: 1000Mi
+#  requests:
+#    cpu: 50m
+#    memory: 500Mi
 
 ## Node labels for pod assignment
 ## ref: https://kubernetes.io/docs/user-guide/node-selection/
